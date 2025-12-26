@@ -39,6 +39,9 @@ allprojects {
 
     repositories {
         mavenCentral()
+        // LibsDisguises
+        maven("https://mvn.lib.co.nz/public/")
+        maven("https://repo.alessiodp.com/releases/")
 
         maven("https://repo.auxilor.io/repository/maven-public/")
 
@@ -84,9 +87,6 @@ allprojects {
 
         // Crunch
         maven("https://redempt.dev")
-
-        // LibsDisguises
-        maven("https://repo.md-5.net/content/groups/public/")
 
         // PlayerPoints
         maven("https://repo.rosewooddev.io/repository/public/")
